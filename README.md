@@ -4,6 +4,7 @@
 
 # TODO
 
-- [ ] list files in directory
+- [x] list files in directory
+- [x] change served directory
+- [x] start `gen_server` with certain state
 - [ ] configure served directory
-- [ ] start `gen_server` with certain state
