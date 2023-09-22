@@ -3,10 +3,7 @@
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {janus_app, []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
+  {applications, [kernel, stdlib, ranch, cowboy, jiffy]},
   {env,[]},
   {modules, []},
 
