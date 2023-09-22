@@ -1,5 +1,5 @@
 -module(janus).
--export([list/1]).
+-export([ls/1]).
 
-list(DirName) ->
+ls(DirName) ->
   file:list_dir_all(DirName).
